@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-macaron-pink: #FFD1DC;
+  --color-macaron-blue: #AEC6CF;
+  --color-macaron-green: #B2EBF2;
+  --color-macaron-yellow: #FDFD96;
+  --color-macaron-purple: #E1D5E7;
+  --color-macaron-peach: #FFDAB9;
+  
+  --color-macaron-pink-dark: #FFB6C1;
+  --color-macaron-blue-dark: #779ECB;
+  --color-macaron-green-dark: #77DD77;
+  --color-macaron-yellow-dark: #FDFD96;
+  --color-macaron-purple-dark: #B39EB5;
+  --color-macaron-peach-dark: #FFB347;
+}
+
+ruby {
+  ruby-align: center;
+  ruby-position: under;
+}
+
+rt {
+  line-height: 0;
+}

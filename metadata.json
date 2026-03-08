@@ -1,0 +1,5 @@
+{
+  "name": "VocabReader",
+  "description": "An English vocabulary learning tool that annotates articles with context-aware translations based on word difficulty.",
+  "requestFramePermissions": []
+}
