@@ -2,8 +2,8 @@ export interface WordToken {
   text: string;
   isWord: boolean;
   translation?: string;
-  difficulty?: number; // 1 (Hardest), 2 (Medium), 3 (Easiest), 0 (Basic)
-  role?: string; // 'subject', 'verb', 'object', 'predicative', 'complement', 'attributive', 'adverbial', 'other'
+  difficulty?: number;
+  role?: string;
 }
 
 export interface SentenceData {
@@ -22,4 +22,21 @@ export interface Article {
   title: string;
   paragraphs: ParagraphData[];
   createdAt: number;
+}
+
+export interface AISettings {
+  apiKey: string;
+  selectedModel: string;
+  availableModels: string[];
+}
+
+export interface AISettingsDefaults {
+  apiKey: string;
+  models: string[];
+}
+
+export interface AIModelOption {
+  id: string;
+  name: string;
+  contextLength?: number;
 }
